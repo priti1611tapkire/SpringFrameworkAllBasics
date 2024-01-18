@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean name="adhrdetails" class="com.AdharCardDetails">
+		<property name="adharno" value="8595869528568"></property>
+		<property name="adharregno" value="BKH859689"></property>
+	</bean>
+	<bean id="s" class="com.Employee" autowire="byName">
+		<property name="eid" value="1"></property>
+		<property name="ename" value="Priti"></property>
+	</bean>
+</beans>
