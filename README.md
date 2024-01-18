@@ -1,1 +1,1 @@
-# SpringFrameworkAllBasics
+ALL examples of SpringFramework
